@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTOFOLIO Mr.R</title>
+
+    <!--link style-->
+    <link rel="stylesheet" href="css.css">
+
+    <!--unicons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+
+    <!-- link aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--header-->
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Rizki</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icon"></i> Beranda
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class="uil uil-user nav_icon"></i> Tentang
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class="uil uil-file-alt nav_icon"></i> Skill
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#services" class="nav_link">
+                            <i class="uil uil-briefcase-alt nav_icon"></i> Servis
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#portfolio" class="nav_link">
+                            <i class="uil uil-scenery nav_icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="uil uil-message nav_icon"></i> Kontak Saya
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+
+            <div class="nav_btns">
+                <!--theme change button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--akhir header-->
+    
+
+    <!--main-->
+    <main class="main">
+
+        <!-- hero -->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    <div class="home_social">
+
+                        <a href="https://api.whatsapp.com/send?phone=6282236831592&text=Hallo Rizki,Apakan anda bisa membantu saya?" target="_blank" class="home_social-icon">
+                            <i class="uil uil-whatsapp"></i>
+                        </a>
+                        <a href="https://instagram.com/riski_madya?utm_medium=copy_link" target="_blank" class="home_social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                    </div>
+                    <div class="home_img">
+
+                        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="mask0" mask-type='alpha'>
+                                <path d="M48.7,-10.9C58.4,14.1,58.3,47.2,39.7,62.6C21.1,78,-16.2,75.7,-41.7,57.2C-67.2,38.7,-81,4,-72.1,-19.9C-63.2,-43.8,-31.6,-56.9,-6.1,-54.9C19.5,-52.9,39,-36,48.7,-10.9Z" transform="translate(100 100)" />
+                            </mask>
+                            <g mask="url(#mask0">
+                                <path d="M48.7,-10.9C58.4,14.1,58.3,47.2,39.7,62.6C21.1,78,-16.2,75.7,-41.7,57.2C-67.2,38.7,-81,4,-72.1,-19.9C-63.2,-43.8,-31.6,-56.9,-6.1,-54.9C19.5,-52.9,39,-36,48.7,-10.9Z" transform="translate(100 100)" />
+                                <image class="home_blob-img" x='22' y='40' xlink:href="img/profil1.png"></image>
+                            </g>    
+                        </svg>
+                    </div>
+                    <div class="home_data">
+                        <h1 class="home_title">Hi, Saya Mr.R</h1>
+                        <h3 class="home_subtitle">Frontend developer</h3>
+                        <p class="home_description">
+                            Saya adalah seorang web developer yang masih menempuh pendidikan di perguruan tinggi.
+                        </p>
+                        <a href="#" class="button button--flex">
+                            Kontak Saya <i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_scroll" data-aos="fade-up" data-aos-duration="2000">
+                    <a href="#about" class="home_scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home_scroll-mouse"></i>
+                        <span class="home_scroll-name">Scroll</span>
+                        <i class="uil uil-arrow-down home_scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- tentang saya -->
+        <section class="about section" id="about">
+            <h2 class="section_title" data-aos="zoom-in-up" data-aos-duration="600">Tantang Saya</h2>
+            <span class="section_subtitle" data-aos="zoom-in-up" data-aos-duration="800">Perkenalanku</span>
+
+            <div class="about_container container grid">
+                <img src="img/saya.jpg" alt="" class="about_img" data-aos="zoom-in-up" data-aos-duration="1000">
+
+                <div class="about_data">
+                    <p class="about_description" data-aos="zoom-in-up" data-aos-duration="1200">
+                    Web Developer, dengan pengetahuan luas dan pengalaman berhari-hari, bekerja dalam teknologi web dan Desain UI/UX, memberikan kualitas terbaik pada perusahaan anda
+                    </p>
+
+                    <div class="about_info" data-aos="zoom-in-up" data-aos-duration="1400">
+                        <div>
+                            <span class="about_info-title">09+</span>
+                            <span class="about_info-name">Hari<br>Pengalaman</span>
+                        </div>
+
+                        <div>
+                            <span class="about_info-title">01+</span>
+                            <span class="about_info-name">Selesai<br>Proyek</span>
+                        </div>
+
+                        <div>
+                            <span class="about_info-title">00+</span>
+                            <span class="about_info-name">Kerja<br>Freelancer</span>
+                        </div>
+
+                        <!--
+                        <div class="about_buttons">
+                            <a download="" href="" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button_icon"></i>
+                            </a>
+                        </div>
+                        -->
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- skill -->
+        <section class="skills section" id="skills">
+            <h2 class="section_title" data-aos="zoom-in-up" data-aos-duration="600">Skill</h2>
+            <span class="section_subtitle" data-aos="zoom-in-up" data-aos-duration="800">Tingkat teknis saya</span>
+
+            <div class="skills_container container grid">
+                <div>
+                    <div class="skills_content skills_open">
+                            <div class="skills_header" data-aos="zoom-in-up" data-aos-duration="1000">
+                                <i class="uil uil-brackets-curly skills_icon"></i>
+
+                                <div>
+                                    <h1 class="skills_title">Frontend Developer</h1>
+                                    <span class="skills_subtitle">Lebih 5 bulan</span>     
+                                </div>
+
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data" data-aos="zoom-in-up" data-aos-duration="1200">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">HTML</h3>
+                                        <span class="skills_number">60%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data" data-aos="zoom-in-up" data-aos-duration="1400">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">CSS</h3>
+                                        <span class="skills_number">40%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data" data-aos="zoom-in-up" data-aos-duration="1600">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">JavaScript</h3>
+                                        <span class="skills_number">20%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data" data-aos="zoom-in-up" data-aos-duration="1800">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">React</h3>
+                                        <span class="skills_number">10%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_react"></span>
+                                    </div>
+                                </div>
+                            </div>    
+                    </div>
+
+                    <div class="skills_content skills_close">
+                            <div class="skills_header" data-aos="zoom-in-up" data-aos-duration="2000">
+                                <i class="uil uil-server-network skills_icon"></i>
+
+                                <div>
+                                    <h1 class="skills_title">Backend Developer</h1>
+                                    <span class="skills_subtitle">Lebih 1 minggu</span>     
+                                </div>
+
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">PHP</h3>
+                                        <span class="skills_number">5%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_php"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">MySql</h3>
+                                        <span class="skills_number">90%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_sql"></span>
+                                    </div>
+                                </div>
+
+                            </div>    
+                    </div>
+                </div>    
+
+                <div>
+                    <div class="skills_content skills_close">
+                            <div class="skills_header" data-aos="zoom-in-up" data-aos-duration="800">
+                                <i class="uil uil-swatchbook skills_icon"></i>
+
+                                <div>
+                                    <h1 class="skills_title">Design UI/UX</h1>
+                                    <span class="skills_subtitle">Lebih 2 bulan</span>     
+                                </div>
+
+                                <i class="uil uil-angle-down skills_arrow"></i>
+                            </div>
+
+                            <div class="skills_list grid">
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Figma</h3>
+                                        <span class="skills_number">70%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_figma"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills_data">
+                                    <div class="skills_titles">
+                                        <h3 class="skills_name">Photoshop</h3>
+                                        <span class="skills_number">30%</span>
+                                    </div>
+                                    <div class="skills_bar">
+                                        <span class="skills_percentage skills_photoshop"></span>
+                                    </div>
+                                </div>
+
+                            </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- kualifikasi -->
+        <section class="qualification section">
+            <h2 class="section_title" data-aos="zoom-in-up" data-aos-duration="600">Kualifikasi</h2>
+            <span class="section_subtitle" data-aos="zoom-in-up" data-aos-duration="800">Biografi Saya</span>
+
+            <div class="qualification_container container">
+                <div class="qualification_tabs">
+                    <div class="qualification_button button--flex qualification_active" data-target="#education" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <i class="uil uil-graduation-cap qualification_icon"></i>
+                        Edukasi
+                    </div>
+
+                    <div class="qualification_button button--flex" data-target="#work" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <i class="uil uil-briefcase-alt qualification_icon"></i>
+                        Pekerjaan
+                    </div>
+                </div>
+
+                <div class="qualification_section">
+                    <div class="qualification_content qualification_active" data-content id="education">
+                        <div class="qualification_data" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div data-aos="zoom-in-up">
+                                <h3 class="qualification_title">Sistem Informasi</h3>
+                                <span class="qualification_subtitle">UIN ALAUDDIN MAKASSAR</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - 2024
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data" data-aos="zoom-in-up" data-aos-duration="1200">
+
+                            <div data-aos="zoom-in-up">
+                                <h3 class="qualification_title">Ilmu Pengetahuan Alam</h3>
+                                <span class="qualification_subtitle">MAN 1 Kota Bima</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2017 - 2020
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+
+                        <div class="qualification_data" data-aos="zoom-in-up" data-aos-duration="1400">
+
+                            <div data-aos="zoom-in-up">
+                                <h3 class="qualification_title">Kelas IT</h3>
+                                <span class="qualification_subtitle">MTSN 1 Kota Bima</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2014 - 2017
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+                        </div>
+                    </div>    
+
+                    <div class="qualification_content" data-content id="work">
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Full Stack Web Developer</h3>
+                                <span class="qualification_subtitle">Visual Studio Code</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021 - ~
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="qualification_data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification_rounder"></span>
+                                <span class="qualification_line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification_title">Design UI/UX</h3>
+                                <span class="qualification_subtitle">Figma</span>
+                                <div class="qualification_calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2021 - ~
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+
+        <!-- service -->
+        <section class="services section" id="services">
+            <h2 class="section_title" data-aos="zoom-in-up" data-aos-duration="600">Jasa</h2>
+            <span class="section_subtitle" data-aos="zoom-in-up" data-aos-duration="800">Adapun yang saya Tawarkan</span>
+
+            <div class="services_container container grid">
+                <div class="services_content" data-aos="zoom-in-up" data-aos-duration="1000">
+                    <div>
+                        <i class="uil uil-web-grid services_icon"></i>
+                        <h3 class="services_title">UI/UX<br>Designer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        Lihat Detail
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">UI/UX<br>Designer</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Saya adalah seorang Design antarmuka</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Saya adalah soerang Design grafis</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Saya adalah seorang Design Logo</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Saya menggunakan tools berupa figma</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services_content" data-aos="zoom-in-up" data-aos-duration="1200">
+                    <div>
+                        <i class="uil uil-arrow services_icon"></i>
+                        <h3 class="services_title">Web<br>Developer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services_button">
+                        Lihat Detail
+                        <i class="uil uil-arrow-right button_icon"></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <h4 class="services_modal-title">Web<br>Developer</h4>
+                            <i class="uil uil-times services_modal-close"></i>
+
+                            <ul class="services_modal-services grid">
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Saya adalah seorang Web Design</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Saya adalah soerang Frontend Developer</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Saya adalah seorang Backend Developer</p>
+                                </li>
+                                <li class="services_modal-service">
+                                    <i class="uil uil-check-circle services_modal-icon"></i>
+                                    <p>Saya adalah Fullstack WEB Developer</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- portfolio -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section_title" data-aos="zoom-in-up" data-aos-duration="600">Portfolio</h2>
+            <span class="section_subtitle" data-aos="zoom-in-up" data-aos-duration="800">Pekerjaan Terbaru</span>  
+            
+            <div class="portfolio_container container">
+                <div>
+                    <div class="portfolio_content grid">
+                        <img src="img/wisata.png" alt="#" class="portfolio_img" data-aos="zoom-in-up" data-aos-duration="1000">
+
+                        <div class="portfolio_data" data-aos="zoom-in-up" data-aos-duration="1400">
+                            <h3 class="portfolio_title">Website Wisata</h3>
+                            <p class="portfolio_description">Situs web yang diberi nama LaoTrip ini menyediakan fitur pemandu wisata dan sistem informasi yang berkaitan dengan wisata yang ada di Bima, Nusa Tenggara Barat.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio_button">
+                                Demo
+                                <i class="uil uil-arrow-right button_icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--contact saya-->
+        <section class="contact section" id="contact">
+            <h2 class="section_title" data-aos="zoom-in-up" data-aos-duration="600">Kontak Saya</h2>
+            <span class="section_subtitle" data-aos="zoom-in-up" data-aos-duration="800">Hubungi Saya</span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="uil uil-phone contact_icon"></i>
+
+                        <div data-aos="zoom-in-up" data-aos-duration="1000">
+                            <h3 class="contact_title">Telpon Saya</h3>
+                            <span class="contact_subtitle">+62-8223-6831-592</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-envelope contact_icon"></i>
+
+                        <div data-aos="zoom-in-up" data-aos-duration="1200">
+                            <h3 class="contact_title">Email</h3>
+                            <span class="contact_subtitle">rizkimadya0@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="uil uil-map-marker contact_icon"></i>
+
+                        <div data-aos="zoom-in-up" data-aos-duration="1400">
+                            <h3 class="contact_title">Lokasi</h3>
+                            <span class="contact_subtitle">Gang. Ompu Iba, Kelurahan Sarae, Kota Bima 87114</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content" data-aos="zoom-in-up" data-aos-duration="1800">
+                            <label for="nama" class="contact_label">Nama</label>
+                            <input type="text" id="nama" class="contact_input">
+                        </div>
+
+                        <div class="contact_content" data-aos="zoom-in-up" data-aos-duration="2000">
+                            <label for="email" class="contact_label">Email</label>
+                            <input type="email" id="nama" class="contact_input">
+                        </div>
+                    </div>
+
+                    <div class="contact_content" data-aos="zoom-in-up" data-aos-duration="2200">
+                        <label for="project" class="contact_label">Project</label>
+                        <input type="text" id="project" class="contact_input">
+                    </div>
+
+                    <div class="contact_content" data-aos="zoom-in-up" data-aos-duration="2400">
+                        <label for="" class="contact_label">Pesan</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    </div>
+
+                    <div data-aos="zoom-in-up" data-aos-duration="1400">
+                        <a href="" class="button button--flex">
+                            Kirim Pesan
+                            <i class="uil uil-message button_icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+    <!--akhir main-->
+
+  
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">M.Rizki Madya</h1>
+                    <span class="footer_subtitle">Frontend Developer</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#services" class="footer_link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer_link">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Kontak Saya</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://api.whatsapp.com/send?phone=6282236831592&text=Hallo Rizki,Apakan anda bisa membantu saya?" target="_blank" class="home_social-icons">
+                        <i class="uil uil-whatsapp"></i>
+                    </a>
+
+                    <a href="https://instagram.com/riski_madya?utm_medium=copy_link" target="_blank" class="home_social-icons">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer_copy">&#169; Mr.R All right reserved</p>
+        </div>
+    </footer>
+    <!--akhir footer-->
+
+  
+    <!--scrol top-->
+    <a href="" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup_icon"></i>
+    </a>
+
+    <!--akhir scrol top-->
+
+ 
+    <!--swiper js-->
+    <script src="">
+
+    </script>
+
+    <!--akhir swiper js-->
+
+
+    <!--main js-->
+
+    <script src="main.js">
+
+    </script>
+
+    <!--akhir main js-->
+
+    <!-- aos js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
